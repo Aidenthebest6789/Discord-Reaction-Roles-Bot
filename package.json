@@ -1,0 +1,19 @@
+{
+  "name": "reaction-roles-bot-v5",
+  "version": "1.0.0",
+  "description": "A globally functional Discord Reaction Roles Bot for Koyeb hosting (v5).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "fs-extra": "^11.3.2"
+  }
+}
